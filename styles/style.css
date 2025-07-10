@@ -42,9 +42,35 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 52px auto 0px;
+    margin: 0px auto 158px;
+    padding-top: 52px;
 }
 nav h2{
     font-size: 34px;
     font-weight: 900;
+}
+
+/* Banner Section Styles */
+header{
+    background-image: url("../images/Hero-bg.png");
+}
+
+.banner-section{
+    margin: 0 auto;
+}
+
+.banner-section h1{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-section-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section-button{
+    margin-bottom: 152px;
 }
