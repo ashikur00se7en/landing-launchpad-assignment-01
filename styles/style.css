@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.common-max-width{
+.max-width{
     max-width: 1140px;
 }
 
@@ -73,4 +73,29 @@ header{
 
 .banner-section-button{
     margin-bottom: 152px;
+}
+
+/* Action Section Styles */
+.action-section{
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-section-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 0px;
+}
+
+.action-section-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 50%)
+}
+
+.action-section img{
+    border-radius: 48px;
 }
