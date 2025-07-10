@@ -1,0 +1,50 @@
+/* Inter Google Font */
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Raleway Google Font */
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Styles */
+.text-primary-color{
+    color: #4E47FF;
+}
+
+.primary-button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+}
+
+.primary-button:hover{
+    background-color: #7F4EFF;
+    cursor: pointer;
+}
+
+.common-max-width{
+    max-width: 1140px;
+}
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 52px auto 0px;
+}
+nav h2{
+    font-size: 34px;
+    font-weight: 900;
+}
