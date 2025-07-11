@@ -208,7 +208,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 71px auto;
+    margin: 0 auto;
+    padding: 93px 0px 85px 0px;
     gap: 65px;
 }
 
@@ -266,4 +267,38 @@ input[type="text"]{
 .newsletter-section-button{
     width: 100%;
     padding: 19px 119px;
+}
+
+/* Footer Section Styles */
+footer{
+    margin: 0 auto;
+    padding: 104px 0px;
+    background-color: #FFFFFF;
+}
+
+.footer-section-title{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin: 104px 0px 8px 0px;
+}
+
+.footer-section-subtitle{
+    text-align: center;
+    color: rgba(137, 135, 161, 100%);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links-container{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.footer-links-container a{
+    color: rgba(137, 135, 161, 100%);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
 }
