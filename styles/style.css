@@ -55,6 +55,11 @@ nav h2{
     font-weight: 900;
 }
 
+.sign-up-button{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* Banner Section Styles */
 header{
     background-image: url("../images/Hero-bg.png");
@@ -78,6 +83,8 @@ header{
 
 .banner-section-button{
     margin-bottom: 152px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* Action Section Styles */
@@ -99,6 +106,11 @@ header{
     font-size: 24px;
     font-weight: 400;
     color: rgba(37, 36, 50, 50%)
+}
+
+.action-section-button{
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .action-section img{
@@ -203,6 +215,48 @@ header{
     font-weight: 400;
 }
 
+/* Ready To Focus Section Styles */
+.ready-to-focus-section{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin: 0 auto;
+    padding: 30px 0px 71px 0px;
+}
+
+.ready-to-focus-section-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 100%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ready-to-focus-section-subtitle{
+    color: rgba(0, 0, 0, 50%);
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.ready-to-focus-section-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ready-to-focus-section-button{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ready-to-focus-section-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.ready-to-focus-section-image-container img{
+    border-radius: 48px;
+}
+
 /* Newsletter Section Styles */
 .newsletter-section{
     display: flex;
@@ -267,6 +321,8 @@ input[type="text"]{
 .newsletter-section-button{
     width: 100%;
     padding: 19px 119px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* Footer Section Styles */
