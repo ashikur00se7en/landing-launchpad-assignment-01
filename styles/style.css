@@ -355,8 +355,11 @@ footer{
 }
 
 .footer-links-container a{
+    text-decoration: none;
+}
+
+.footer-links-container a p{
     color: rgba(137, 135, 161, 100%);
     font-size: 18px;
     font-weight: 400;
-    text-decoration: none;
 }
