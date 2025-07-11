@@ -202,3 +202,68 @@ header{
     color: #B3B3B3;
     font-weight: 400;
 }
+
+/* Newsletter Section Styles */
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 71px auto;
+    gap: 65px;
+}
+
+.newsletter-section-title-container{
+    width: 50%;
+}
+
+.newsletter-section-title{
+    font-size: 97px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.newsletter-section-form{
+    width: 50%;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+
+input[type="email"]{
+    width: 540px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 32px;
+    margin: 10px 0px 19px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input[type="text"]{
+    width: 540px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 32px;
+    margin: 10px 0px 19px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter-section-form textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 32px;
+    margin: 10px 0px 19px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter-section-button{
+    width: 100%;
+    padding: 19px 119px;
+}
